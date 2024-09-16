@@ -1,0 +1,49 @@
+.copy{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.footer{
+    background-color:#291248 ;
+}
+.log {
+display: flex;
+flex-direction: row;
+justify-content: end;
+padding-right: 90px;
+padding-top: 35px;
+gap: 30px;
+}
+.logo{
+    box-shadow: 0 0 20px #b78bf0;
+    border-radius: 50%;
+    border: 2px solid #b78bf0;
+
+}
+
+.cont{
+    padding-top: 15px;
+    font-size: 18px;
+}
+.cont:hover{
+    color: #b78bf0;
+}
+.l{
+    margin-right: 700px;
+    font-size: 13px;
+    color: white;
+}
+.s{
+    color: #b78bf0;
+}
+.pi{
+    transition: all 1s ease;
+}
+.pi:active{
+transform: scale(0.8);
+box-shadow: 10px white;
+}
+.pi:hover{
+    transform: scale(0.8); 
+}

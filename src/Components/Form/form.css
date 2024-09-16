@@ -1,0 +1,68 @@
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+form{
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(193, 100, 227);
+    color: #333;
+   margin-left: 570px;
+   margin-bottom: 100px;
+   
+    
+}
+form h3{
+    font-size: 30px;
+    text-align: center;
+    color: #180a2d;
+}
+ 
+form .contact{
+    margin-top: 10px;
+}
+.contact .field{
+    width: 100%;
+    height: 15px;
+    background: transparent;
+    border: 2px solid #ddd;
+    outline: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 12px;
+    color: #333;
+    margin-top: 8px;
+}
+.contact .field.mess {
+    height: 100px;
+    resize: none;
+}
+form button {
+    width: 30%;
+    height: 40px;
+    background-color: rgb(115, 60, 210);
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 20px #7845ba;
+    cursor: pointer;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    margin-top: 25px;
+    transition: 0.5s;
+    margin-left: 120px;
+}
+
+form button:hover{
+    background-color: #4f2882;
+
+}

@@ -1,0 +1,47 @@
+.pv{
+    color: rgb(179, 117, 218);
+    text-align: center;
+    font-size: 80px;
+   padding-top: 50px;
+   padding-bottom: 70px;
+   animation: flip-right 20s infinite;
+   
+}
+
+@keyframes flip-right {
+    0% {
+        transform: rotateY(0deg); 
+    }
+    50% {
+        transform: rotateY(360deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 70px;
+}
+.tech{
+    
+ 
+    box-shadow:  2px#7845ba;
+}
+.st{
+    transition: all 0.5s ease;
+}
+.st:hover{
+    transform: scale(0.7);
+}
