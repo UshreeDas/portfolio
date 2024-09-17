@@ -5,8 +5,10 @@ import image from "./my photo.jpg";
 function Home () {
     return (
         <div id="home">
-        <h1 className="nam"> Hello I am <span className="u">Ushree Das!</span></h1>
-        <img src={image} alt="" className="mine"/>
+            <center>
+        <h1 className="nam"> Hello I am <span className="u">Ushree Das!</span></h1></center>
+        <center>
+        <img src={image} alt="" className="mine"/></center>
         </div>
 
     )

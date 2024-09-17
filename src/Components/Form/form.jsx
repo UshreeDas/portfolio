@@ -32,6 +32,7 @@ function Form () {
       };
     return (
         <div id="call">
+          <center>
         <section id="hello">
         <form onSubmit={onSubmit}>
         <h3>Contact me</h3>
@@ -47,9 +48,11 @@ function Form () {
             <label>Your Message</label>
             <textarea name="message" id="" className="field mess" placeholder="Enter your message " required></textarea>
         </section>
-        <button type="submit"> Send Message</button>
+        <center>
+        <button type="submit"> Send Message</button></center>
         </form>
         </section>
+        </center>
         </div>
 
     )

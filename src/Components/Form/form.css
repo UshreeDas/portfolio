@@ -16,7 +16,7 @@ form{
     border-radius: 10px;
     box-shadow: 0 0 30px rgb(193, 100, 227);
     color: #333;
-   margin-left: 570px;
+  
    margin-bottom: 100px;
    
     
@@ -59,7 +59,7 @@ form button {
     font-weight: 500;
     margin-top: 25px;
     transition: 0.5s;
-    margin-left: 120px;
+    
 }
 
 form button:hover{

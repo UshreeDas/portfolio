@@ -15,7 +15,7 @@ function Header () {
 <a href="#projects" className="ab">Projects</a>
 <a href="#call" className="ab">Contact</a>
 <button  className="cv">
-  <a href={pdf} download="pdf" className="load"> 
+  <a href={pdf} download="pdf" className=" load"> 
 
   Download CV
   </a>
