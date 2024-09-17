@@ -11,7 +11,7 @@ function Footer () {
 
            <section className="log">
             <p className="l">Designed & build by <span className="s">Ushree</span></p>
-           <a href="#call" target="_blank" className="cont" >
+           <a href="#home" target="_blank" className="cont" >
             Home
             </a>
             <a href="https://github.com/UshreeDas" target="_blank" className="pi" >

@@ -1,19 +1,11 @@
 import React from "react";
 import "./header.css";
+import pdf from "./Ushree_Das_resume.pdf";
 
-const PDF_FILE_URL="http://localhost:3000/#home/Ushree_Das_resume.pdf";
+
 
 function Header () {
-    const downloadFileAtURL=(url)=>{
-        const fileName = url.split("/").pop();
-        const aTag = document.createElement("a");
-        aTag.href=url;
-        aTag.setAttribute("download",fileName);
-        document.body.appendChild(aTag);
-        aTag.click();
-        aTag.remove();
-
-    };
+    
     return (
         <div className="header">
             <p1 className="ussu">Ussu</p1>
@@ -22,7 +14,13 @@ function Header () {
 <a href="#about" className="ab">About</a>
 <a href="#projects" className="ab">Projects</a>
 <a href="#call" className="ab">Contact</a>
-<button onClick={()=>{downloadFileAtURL (PDF_FILE_URL)}} className="cv">Download CV</button>
+<button  className="cv">
+  <a href={pdf} download="pdf" className="load"> 
+
+  Download CV
+  </a>
+  
+   </button>
 </div>
         </div>
 
